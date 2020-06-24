@@ -1,0 +1,11 @@
+#!/bin/sh
+NS_GLOBAL_VALUE="RngRun=1" ./waf --run "ltp-protocol-long-transmission-example --BER=1e-05 --dataRate=115200bps --totalBytes=1048576 --channelDelay=1.25"
+NS_GLOBAL_VALUE="RngRun=2" ./waf --run "ltp-protocol-long-transmission-example --BER=1e-05 --dataRate=115200bps --totalBytes=1048576 --channelDelay=1.25"
+NS_GLOBAL_VALUE="RngRun=3" ./waf --run "ltp-protocol-long-transmission-example --BER=1e-05 --dataRate=115200bps --totalBytes=1048576 --channelDelay=1.25"
+NS_GLOBAL_VALUE="RngRun=4" ./waf --run "ltp-protocol-long-transmission-example --BER=1e-05 --dataRate=115200bps --totalBytes=1048576 --channelDelay=1.25"
+NS_GLOBAL_VALUE="RngRun=5" ./waf --run "ltp-protocol-long-transmission-example --BER=1e-05 --dataRate=115200bps --totalBytes=1048576 --channelDelay=1.25"
+NS_GLOBAL_VALUE="RngRun=6" ./waf --run "ltp-protocol-long-transmission-example --BER=1e-05 --dataRate=115200bps --totalBytes=1048576 --channelDelay=1.25"
+NS_GLOBAL_VALUE="RngRun=7" ./waf --run "ltp-protocol-long-transmission-example --BER=1e-05 --dataRate=115200bps --totalBytes=1048576 --channelDelay=1.25"
+NS_GLOBAL_VALUE="RngRun=8" ./waf --run "ltp-protocol-long-transmission-example --BER=1e-05 --dataRate=115200bps --totalBytes=1048576 --channelDelay=1.25"
+NS_GLOBAL_VALUE="RngRun=9" ./waf --run "ltp-protocol-long-transmission-example --BER=1e-05 --dataRate=115200bps --totalBytes=1048576 --channelDelay=1.25"
+NS_GLOBAL_VALUE="RngRun=10" ./waf --run "ltp-protocol-long-transmission-example --BER=1e-05 --dataRate=115200bps --totalBytes=1048576 --channelDelay=1.25"
